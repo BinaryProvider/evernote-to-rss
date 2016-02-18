@@ -13,7 +13,7 @@ namespace EvernoteToRSS_Sample
         static void Main(string[] args)
         {
             string sessionToken = "YOUR_EVERNOTE_DEVELOPER_TOKEN";
-            string noteStoreUrl = "YOUR EVERNOTE NOTE STORE URL";
+            string noteStoreUrl = "YOUR_EVERNOTE_NOTE_STORE_URL";
 
             // Initiate the feed creator
             FeedMaker en = new FeedMaker(sessionToken, noteStoreUrl);
