@@ -12,7 +12,7 @@ namespace EvernoteToRSS_Sample
     {
         static void Main(string[] args)
         {
-            string sessionToken = "YOUR_EVENOTE_DEVELOPER_TOKEN";
+            string sessionToken = "YOUR_EVERNOTE_DEVELOPER_TOKEN";
             string noteStoreUrl = "YOUR EVERNOTE NOTE STORE URL";
 
             // Initiate the feed creator
